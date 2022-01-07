@@ -123,6 +123,11 @@ public class Recipe
                     {
                             foundIngredientCount++;
                     }
+                    else
+                    {
+                       //No need to check for rest of the ingredients.
+                       break; 
+                    }
                  }
                }
                if(foundIngredientCount == ingredients.Count())
